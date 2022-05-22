@@ -1,25 +1,25 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "com.example",
-		"id": "example_mod",
+		"group": "ch.fantasticgame28",
+		"id": "moreent",
 		"version": "${version}",
 		"metadata": {
 			"name": "Mod Name",
-			"description": "A short description of your mod.",
+			"description": "Adds more Enchantments!",
 			"contributors": {
-				"Me!": "Owner"
+				"Fantasticgame28": "Owner"
 			},
 			"contact": {
 				"homepage": "https://example.com/",
-				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
-				"sources": "https://github.com/QuiltMC/quilt-template-mod"
+				"issues": "https://github.com/RoBaertschi/more-enchantments/issues",
+				"sources": "https://github.com/RoBaertschi/more-enchantments"
 			},
-			"icon": "assets/example_mod/icon.png"
+			"icon": "assets/moreent/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "ch.fantasticgame28.moreent.MoreEnchantments"
 		},
 		"depends": [
 			{
@@ -36,5 +36,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "moreent.mixins.json"
 }

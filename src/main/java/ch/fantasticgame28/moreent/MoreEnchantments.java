@@ -1,5 +1,6 @@
-package com.example.example_mod;
+package ch.fantasticgame28.moreent;
 
+import ch.fantasticgame28.moreent.enchantments.ModEnchantments;
 import org.quiltmc.loader.api.ModContainer;
 import org.quiltmc.qsl.base.api.entrypoint.ModInitializer;
 import org.slf4j.Logger;
@@ -13,6 +14,6 @@ public class MoreEnchantments implements ModInitializer {
 
 	@Override
 	public void onInitialize(ModContainer mod) {
-		LOGGER.info("Hello Quilt world from {}!", mod.metadata().name());
+		ModEnchantments.registerEnchantments();
 	}
 }
